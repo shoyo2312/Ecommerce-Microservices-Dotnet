@@ -416,4 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-.idea
+
+# Rider logs
+.idea/
+*.sln.iml
+
+# SQLite DB files
+**/discountdb*
