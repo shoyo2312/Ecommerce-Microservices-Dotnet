@@ -13,8 +13,7 @@ services:
     
   orderdb:
     container_name: orderdb
-    image: mcr.microsoft.com/mssql/server
-    platform: linux/amd64   
+    image: mcr.microsoft.com/azure-sql-edge
   
   catalog.api:
     container_name: catalog.api
